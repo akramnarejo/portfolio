@@ -45,7 +45,7 @@ export const projects = [
     portal: "",
     source: "https://github.com/akramnarejo/savings-calculator",
     description:
-      "Savings calculator to find your savings over multiple periodic plan and parameters.",
+      "Savings calculator to plan savings over multiple periods.",
   },
   {
       title: "skvllpkvnz",
