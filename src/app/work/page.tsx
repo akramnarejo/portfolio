@@ -10,9 +10,8 @@ const Page = () => {
         Work
       </h2>
       <p className="text-[#666] [font-size:_clamp(1.2rem,1.5vw,2rem)]">
-        Following are the tools and skills, I apply to build responsive UIs and
-        integrate APIs. I&apos;m also learning blockchain to develop
-        de-centralized apps.
+        Following are the skills and tools, I apply to build responsive UIs and
+        integrate APIs.
       </p>
       {/* skills */}
       <div className="flex gap-4 flex-wrap mt-8">
