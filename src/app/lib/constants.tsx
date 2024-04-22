@@ -55,4 +55,12 @@ export const projects = [
       portal: "",
       description: "NFT landing page"
   },
+  {
+      title: "ElectronicShop",
+      thumbnail: "/images/electronics.png",
+      landingpage: "https://electronicshop.com.ng/",
+      source: "",
+      portal: "",
+      description: "An E-commerce electronic shop providing store and marketplace for electronics."
+  },
 ];
