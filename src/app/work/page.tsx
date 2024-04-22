@@ -21,7 +21,7 @@ const Page = () => {
             <motion.span
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ duration: 2, type: "sping", delay: ind/8, ease: "easeOut" }}
+              transition={{ duration: 2, type: "sping", ease: "easeOut" }}
               viewport={{once: true}}
               key={ind}
               className={`md:text-xl dark:bg-black border border-[#1f1f1f] dark:hover:border-blue-200 dark:hover:text-blue-200 hover:border-blue-400 hover:text-blue-600 p-2 rounded-lg text-[#666] hover:skew-y-3 ease-in-out duration-500 hover:scale-110`}
