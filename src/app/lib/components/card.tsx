@@ -21,7 +21,7 @@ const Card = ({ data }: Props) => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2, type: "tween" }}
-      className="bg-[#0f0f0f] border border-[#1f1f1f] rounded-lg p-2 hover:border-gray-600 duration-500"
+      className="dark:bg-[#0f0f0f] border dark:border-[#1f1f1f] border-[#1f1f1f] rounded-lg p-2 hover:border-blue-400 dark:hover:border-gray-600 duration-500 hover:scale-x-105"
     >
       <div className="h-80 w-full relative overflow-hidden">
       <Image
@@ -34,14 +34,14 @@ const Card = ({ data }: Props) => {
 
       <div className="py-5 px-3">
         <Link href={data.landingpage} target="_blank">
-          <h5 className="text-white font-bold text-2xl tracking-tight mb-2 hover:text-blue-400">
+          <h5 className="dark:text-white font-bold text-2xl tracking-tight mb-2 hover:text-blue-400">
             {data.title}
           </h5>
         </Link>
         <p className="font-normal text-[#999] mb-3">{data.description}</p>
         {data.portal && (
           <Link
-            className="text-[#e2e2e2] hover:text-blue-400 flex gap-1 items-center"
+            className="dark:text-[#e2e2e2] hover:text-blue-400 flex gap-1 items-center"
             href={data.portal}
             target="_blank"
           >
@@ -50,7 +50,7 @@ const Card = ({ data }: Props) => {
         )}
         {data.source && (
           <Link
-            className="text-[#e2e2e2] hover:text-blue-400 flex gap-1 items-center"
+            className="dark:text-[#e2e2e2] hover:text-blue-400 flex gap-1 items-center"
             href={data.source}
             target="_blank"
           >
