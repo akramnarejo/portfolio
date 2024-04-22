@@ -32,7 +32,7 @@ export const projects = [
     title: "URL Keeper",
     thumbnail: "/images/url-keeper.png",
     landingpage:
-      "https://https://chromewebstore.google.com/detail/ccelhojgnbidfilmdgpfnoncffmiogik",
+      "https://chromewebstore.google.com/detail/url-keeper/ccelhojgnbidfilmdgpfnoncffmiogik",
     portal: "",
     source: "https://github.com/akramnarejo/url-keeper#url-keepr",
     description:
