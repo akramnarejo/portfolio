@@ -21,7 +21,7 @@ const Card = ({ data }: Props) => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2, type: "tween" }}
-      className="dark:bg-[#0f0f0f] border dark:border-[#1f1f1f] border-[#1f1f1f] rounded-lg p-2 hover:border-blue-400 dark:hover:border-gray-600 duration-500 hover:scale-x-105"
+      className="dark:bg-[#0f0f0f] border dark:border-[#1f1f1f] border-[#999] rounded-lg p-2 hover:border-blue-400 dark:hover:border-gray-600 duration-500 hover:scale-x-105"
     >
       <div className="h-80 w-full relative overflow-hidden">
       <Image
@@ -38,7 +38,7 @@ const Card = ({ data }: Props) => {
             {data.title}
           </h5>
         </Link>
-        <p className="font-normal text-[#999] mb-3">{data.description}</p>
+        <p className="font-normal text-[#666] dark:text-[#999] mb-3">{data.description}</p>
         {data.portal && (
           <Link
             className="dark:text-[#e2e2e2] hover:text-blue-400 flex gap-1 items-center"
