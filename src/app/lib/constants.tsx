@@ -3,6 +3,7 @@ export const skills = [
   "Typescript",
   "React.js",
   "Next.js",
+  "React Native",
   "Redux",
   "Zustand",
   "Tawilwind css",
