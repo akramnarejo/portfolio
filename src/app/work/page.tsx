@@ -11,8 +11,7 @@ const Page = () => {
         Work
       </h2>
       <p className="text-[#666] [font-size:_clamp(1.2rem,1.5vw,2rem)]">
-        Following are the skills and tools, I apply to build responsive UIs and
-        integrate APIs.
+        I am passionate about developing mobile responsive and scalable web apps, providing seamless user experience using modern technologies. So far, I have worked with the following skills and tools and learning more.
       </p>
       {/* skills */}
       <div className="flex gap-4 flex-wrap mt-8">
