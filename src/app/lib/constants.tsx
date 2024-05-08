@@ -30,6 +30,14 @@ export const projects = [
       "Pakistani start-up (6M USD funding) and the first online logistics marketplace connecting carriers with shippers.",
   },
   {
+      title: "Bailey Motors",
+      thumbnail: "/images/bailey-motors.png",
+      landingpage: "https://next-js-five-lemon-14.vercel.app/",
+      source: "",
+      portal: "",
+      description: "Bailey motors, cars store to purchase  new or used car."
+  },
+  {
     title: "URL Keeper",
     thumbnail: "/images/url-keeper.png",
     landingpage:
