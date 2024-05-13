@@ -17,6 +17,8 @@ export const skills = [
   "Docker",
   "Vite",
   "Git/Github",
+  "Wordpress",
+  "Python",
 ];
 
 export const projects = [
