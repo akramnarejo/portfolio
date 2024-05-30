@@ -10,9 +10,9 @@ export default function Home() {
         <h1 className="[font-size:_clamp(4rem,6vw,10rem)] font-bold mt-3">
           G&apos;day, I&apos;m Akram <span className="animate-pulse duration-1000">👋</span>
         </h1>
-        <p className="w-full [font-size:_clamp(2.5rem,4vw,6rem)] mt-1  text-[#666]">
-          A{" "}<span className="dark:bg-[#111] bg-[#eee] rounded-lg border border-[#333] text-blue-800">Frontend Engineer 👨‍💻</span>{" "}crafting visuals and user experience,
-          Web3 enthusiast and Photographer 📸. Based in Dubai 🇦🇪.
+        <p className="w-full [font-size:_clamp(2rem,4vw,4.2rem)] mt-1  text-[#666]">
+          A{" "}<Link href="/work" className="dark:bg-[#111] bg-[#eee] rounded-lg border border-[#333] text-blue-800 hover:text-blue-500 ease-linear duration-500">Frontend Engineer 👨‍💻</Link>{" "}crafting visuals with seamless user experience,
+          Web3 enthusiast for better tomorrow and Hobbyist photographer 📸.
         </p>
         <p className="w-full mt-2 tracking-wide text-[#666] italic [font-size:_clamp(1.2rem,1.5vw,2rem)]">
           For contact, send me an email

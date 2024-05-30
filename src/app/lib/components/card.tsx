@@ -21,7 +21,7 @@ const Card = ({ data }: Props) => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2, type: "tween" }}
-      className="dark:bg-[#0f0f0f] border dark:border-[#1f1f1f] border-[#999] rounded-lg p-2 hover:border-blue-400 dark:hover:border-gray-600 duration-500 hover:scale-x-105"
+      className="dark:bg-[#0f0f0f] border dark:border-[#444] border-[#999] rounded-lg p-2 hover:border-blue-400 dark:hover:border-blue-400 duration-500 hover:scale-x-105"
     >
       <Link href={data.landingpage} target="_blank">
         <div className="h-80 w-full relative overflow-hidden cursor-pointer">
@@ -36,7 +36,7 @@ const Card = ({ data }: Props) => {
 
       <div className="py-5 px-3">
         <Link href={data.landingpage} target="_blank">
-          <h5 className="dark:text-white font-bold text-2xl tracking-tight mb-2 hover:text-blue-400">
+          <h5 className="dark:text-white inline font-bold text-2xl tracking-tight mb-2 hover:text-blue-400">
             {data.title}
           </h5>
         </Link>
